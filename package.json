@@ -1,0 +1,16 @@
+{
+  "name": "intership-assignment",
+  "version": "1.0.0",
+  "description": "Creating the application for registering the user and login the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pratik Kapratwar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  }
+}
