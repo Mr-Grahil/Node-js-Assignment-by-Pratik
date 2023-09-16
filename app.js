@@ -20,5 +20,5 @@ const start = async(url)=>{
     await connectToDB(url);
     app.listen(process.env.PORT||port,console.log("Server is running successfully"))
 }
-start(process.env.Mongo_url);
+start("mongodb+srv://Pratik:1234@taskmanagerpk.80airko.mongodb.net/TaskManagerDB?retryWrites=true&w=majority");
 // app.listen(process.env.PORT||port,console.log("Server is running successfully"))
