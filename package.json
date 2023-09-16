@@ -4,6 +4,7 @@
   "description": "Creating the application for registering the user and login the user",
   "main": "index.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pratik Kapratwar",
